@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section class="triangulo">
+        <h2>Calcula el Area y el Perimetro de un Triangulo</h2>
+        <form class="contenido_triangulo">
+            <label>
+                Escribir cuanto mide cada lado de tu Triangulo
+            </label>
+            <input type="number" id="inputIsoceles1" placeholder="Lado 1 / Base">
+            <input type="number" id="inputIsoceles2" placeholder="Lado 2 / Altura">
+            <input type="number" id="inputIsoceles3" placeholder="Lado 3">
+            <button type="button" onclick="calcularPerimetroTrianguloIsoceles()">
+                Calcular el Perimetro
+            </button>
+            <button type="button" onclick="calcularAreaTriangulo()">Calcular el Area</button>
+        </form>
+    </section>
+    <script src="./isoceles.js"></script>
+</body>
+</html>
