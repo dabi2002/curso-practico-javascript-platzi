@@ -1,0 +1,72 @@
+:root{
+    --white: #edf1dd;
+    --green: #a5fad9;
+    --blue: #011849de;
+    --yellow: #c7b40c;
+    --whiteblue: #dbecff; 
+    --sm: 18px;
+    --md: 24px;
+    --lg: 32px;
+    --xlg: 44px;
+}
+*{
+    background: var(--whiteblue) ;
+    font-family: 'Bebas Neue', cursive;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid var(--blue);
+    border-radius: 8px;
+    height: 490px;
+    width: 400px;
+}
+header > h1{
+    font-size: var(--xlg);
+    text-align: center;
+    color: var(--blue);
+    margin-top: 0;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: auto;
+}
+section > h2 {
+    text-align: center;
+    font-size: var(--md);
+    margin-top: -20px;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin-bottom: 8px;
+    font-size: var(--md);
+    text-align: center;
+}
+
+input{
+    font-size: var(--md);
+    margin-bottom: 24px;
+    border-radius: 8px;
+    border: 1px solid var(--blue);
+    color: var(--blue);
+    background-color: var(--white);
+    margin-left: 12%;
+}
+button{
+    margin-left: 2%;
+    border-radius: 12px;
+    border: 1px solid;
+    background-color: var(--green);
+    font-size: var(--md);
+}
+
+#ResultPrice{
+    text-align: center;
+    font-size: var(--md);
+}
