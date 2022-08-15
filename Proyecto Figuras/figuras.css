@@ -1,0 +1,163 @@
+:root{
+    --white: #edf1dd;
+    --blue: #5a5a8d;
+    --yellow: #c9bb02;
+    --red: #9c0808;
+    --sm: 12px;
+    --md: 16px;
+    --lg: 20px
+    --xlg: 24px
+}
+*{
+    background-color: var(--white);
+    font-family: 'Kdam Thmor Pro', sans-serif;  
+}
+
+.cabecera {
+    display: block;
+    text-align: center;
+    margin-top: 0px;
+}
+.cabecera > h1{
+    margin-left: 48px;
+}
+
+.imagen_titulo{
+    margin-bottom: -60px;
+    margin-left: -320px;
+}
+
+
+.imagen_titulo img{
+    width: 48px;
+    width: 48px;
+}
+
+.cuadros{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 400px;
+}
+.cuadrado{
+    margin-top: 80px;
+    margin-left: 16px;
+    width: 320px;
+    height: 320px;
+    border: 1px solid grey ;
+    border-radius: 8px;
+}
+
+.cuadrado > h2{
+    text-align: center;
+    font-size: var(--xlg);
+}
+
+.contenido_cuadrado > label{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#inputCuadrado{
+    width: 180px;
+    height: 20px;
+    border-color: var(--blue);
+    border-radius: 8px;
+    display: flex;
+    margin-top: 16px;
+    margin-left: 56px;
+    
+}
+.contenido_cuadrado > button{
+    background-color: var(--red);
+    margin: 48px 0 0px 24px;
+    width: 120px;
+    height: 60px;
+    border: 1px solid ;
+    color: var(--white);
+    font-size: var(--md);
+    border-radius: 8px;
+}
+
+.triangulo{
+    margin-top: 80px;
+    width: 320px;
+    height: 320px;
+    border: 1px solid grey ;
+    border-radius: 8px;
+}
+
+.triangulo > h2{
+    text-align: center;
+    font-size: var(--xlg);  
+}
+
+.contenido_triangulo > label{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#inputTriangulo1, #inputTriangulo2, #inputTriangulo3{
+    width: 180px;
+    height: 18px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    display: flex;
+    margin-top: 6px;
+    margin-left: 64px;
+    
+}
+.contenido_triangulo > button{
+    background-color: var(--red);
+    margin: 8px 0 0px 26px;
+    width: 120px;
+    height: 60px;
+    font-size: var(--md);
+    border-radius: 8px;
+    border: 1px solid ;
+    color: var(--white);
+}
+.circulo{
+    margin-top: 80px;
+    margin-right: 16px;
+    width: 320px;
+    height: 320px;
+    border: 1px solid grey ;
+    border-radius: 8px;
+}
+
+.circulo > h2{
+    text-align: center;
+    font-size: var(--xlg);
+    margin: 12px 12px 12px 12px;
+}
+
+.contenido_circulo > label{
+    margin: 12px 12px 12px 12px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#inputCirculo{
+    text-align: center;
+    width: 180px;
+    height: 20px;
+    border-color: var(--blue);
+    border-radius: 8px;
+    display: flex;
+    margin-top: 16px;
+    margin-left: 56px;
+    
+}
+.contenido_circulo > button{
+    background-color: var(--red);
+    margin: 48px 0 0px 24px;
+    width: 120px;
+    height: 60px;
+    border: 1px solid ;
+    color: var(--white);
+    font-size: var(--md);
+    border-radius: 8px;
+}
